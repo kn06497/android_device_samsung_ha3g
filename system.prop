@@ -3,7 +3,7 @@
 #
 
 # UI
-ro.sf.lcd_density=480
+ro.sf.lcd_density=420
 
 # Radio
 rild.libpath=/system/lib/libsec-ril.so
