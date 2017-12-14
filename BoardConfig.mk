@@ -38,6 +38,7 @@ TARGET_OTA_ASSERT_DEVICE := ha3g
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_deathly_ha3g_defconfig
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 # IR Blaster
 IR_HAS_ONE_FREQ_RANGE := true
@@ -73,8 +74,8 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
-BOARD_SEPOLICY_DIRS += device/samsung/ha3g/sepolicy
+# BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
+# BOARD_SEPOLICY_DIRS += device/samsung/ha3g/sepolicy
 
 # Camera: portrait orientation
 BOARD_CAMERA_FRONT_ROTATION := 270
